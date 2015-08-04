@@ -5,9 +5,13 @@
 # this work, you have to use › layout: frontpage
 #
 layout: frontpage
-title: "Algotrade Exchange - Algorithmic Trading Blogging"
+
 header:
-   image_fullwidth: "header_unsplash_12.jpg"
+  title: Algotrade Exchange
+  image_fullwidth: "unsplash_leaf_header.jpg"
+  caption: Algotrade Exchange - Algorithmic Trading Blogging 
+  caption_url: http://algotrade.exchange/
+
 widget-1:
     title: "Blog & Portfolio"
     url: 'http://phlow.github.io/feeling-responsive/blog/'
