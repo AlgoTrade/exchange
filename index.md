@@ -7,7 +7,6 @@
 layout: frontpage
 
 header:
-  title: Algotrade Exchange
   image_fullwidth: "unsplash_leaf_header.jpg"
   caption: Algotrade Exchange - Algorithmic Trading Blogging 
   caption_url: http://algotrade.exchange/
