@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="{{ "css/fontello.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "css/font-awesome.css" | prepend: site.baseurl }}">
 
-  <script src="{{ "/javascripts/libs.js" | prepend: site.baseurl }}" type="text/javascript"></script>
+  <script src="{{ "/javascripts/libs.js" | prepend: site.url }}" type="text/javascript"></script>
   <script>
     // terrificjs bootstrap
     (function($) {
@@ -34,5 +34,5 @@
   <script src="{{ "javascripts/slick.min.js" | prepend: site.baseurl }}" type="text/javascript"></script>
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "../feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
 </head>
