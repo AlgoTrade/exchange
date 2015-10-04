@@ -36,7 +36,7 @@ module Jekyll
       # output = `pwd`
 
       files.each do |file|
-        output += File.read("./javascripts/#{file}")
+        output += file.read("../javascripts/#{file}")
         output += "\n"
         output += "//"
         output += "#" * 80
